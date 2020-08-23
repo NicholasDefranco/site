@@ -1,0 +1,8 @@
+- name: Jekyll
+  repo: https://github.com/jekyll/jekyll
+- name: Bootstrap
+  repo: https://github.com/twbs/bootstrap
+- name: JQuery
+  repo: https://github.com/jquery/jquery
+- name: Popper
+  repo: https://github.com/popperjs/popper-core

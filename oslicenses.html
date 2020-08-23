@@ -1,0 +1,29 @@
+---
+layout: default
+title: Open Source Licenses
+name-placement: col-md-2
+repo-placement: col-md-2
+---
+<div class="row">
+  <div class="col-md-12">
+    <legend>
+      <h2>{{ page.title }}</h2>
+    </legend>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="{{ site.name-placement }}">Name</th>
+          <th class="{{ site.repo-placement }}">Repoistory</th>
+        </tr>
+        {% for item in site.data.oslicenses %}
+          <tr>
+            <td class="{{ site.name-placement }}">{{ item.name }}</td>
+            <td class="{{ site.repo-placement }}"><a href="{{ item.repo }}">{{ item.repo }}</td>
+          </tr>
+        {% endfor %}
+      </thead>
+    </table>
+
+  </div>
+</div>
