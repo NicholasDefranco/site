@@ -1,7 +1,22 @@
+@media (max-width: 768px) { 
+  .section-nav {
+    display: none; 
+  }
+}
+
+.bd-toc {
+  position: sticky;
+  top: 0;
+}
+
+.container-sm {
+  text-align: center;
+}
+
 nav.navbar.navbar-default {
-	background-color: #46B3E6;
+  background-color: #46B3E6;
 }
 
 body {
-	background-color: #DFF6F0;
+  background-color: #DFF6F0;
 }
