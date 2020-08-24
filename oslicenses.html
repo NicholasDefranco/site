@@ -32,11 +32,11 @@ title: Open Source Licenses
       </thead>
       <tbody>
         {% for item in site.data.oslicenses %}
-        <tr>
-          <td class="col">{{ item.name }}</td>
-          <td class="col"><a href="{{ item.license }}">{{ item.license_name }}</a></td>
-          <td class="col"><a href="{{ item.repo }}">{{ item.repo }}</a></td>
-        </tr>
+          <tr>
+            <td class="col"><a href="{{ item.website }}" target="_blank" rel="noreferrer noopener">{{ item.name }}</a></td>
+            <td class="col"><a href="{{ item.license }}" target="_blank" rel="noreferrer noopener">{{ item.license_name }}</a></td>
+            <td class="col"><a href="{{ item.repo }}" target="_blank" rel="noreferrer noopener">{{ item.repo }}</a></td>
+          </tr>
         {% endfor %}
       </tbody>
     </table>
