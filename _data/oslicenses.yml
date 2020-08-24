@@ -1,8 +1,16 @@
 - name: Jekyll
   repo: https://github.com/jekyll/jekyll
+  license: https://tldrlegal.com/license/mit-license
+  license_name: MIT
 - name: Bootstrap
   repo: https://github.com/twbs/bootstrap
+  license: https://tldrlegal.com/license/mit-license
+  license_name: MIT
 - name: JQuery
   repo: https://github.com/jquery/jquery
+  license: https://tldrlegal.com/license/mit-license
+  license_name: MIT
 - name: Popper
   repo: https://github.com/popperjs/popper-core
+  license: https://tldrlegal.com/license/mit-license
+  license_name: MIT
