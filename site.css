@@ -1,7 +1,36 @@
+@media (max-width: 768px) {
+  .section-nav {
+    display: none; 
+  }
+}
+
+.container-sm {
+  text-align: center;
+}
+
+legend {
+  text-align: center;
+  color: #5e5e5e;
+}
+
+td, th, table, thead {
+  text-align: center;
+  color: #5e5e5e;
+}
+
+td {
+  color: #000;
+  border: 1px solid #dddddd;
+}
+
+tr:nth-child(even), thead {
+  background-color: #46B3E6;
+}
+
 nav.navbar.navbar-default {
-	background-color: #46B3E6;
+  background-color: #46B3E6;
 }
 
 body {
-	background-color: #DFF6F0;
+  background-color: #DFF6F0;
 }
