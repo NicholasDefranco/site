@@ -1,4 +1,7 @@
 # My Website!
+
+![build](https://travis-ci.com/NicholasDefranco/NicholasDefranco.github.io.svg?token=k3ifBQMTCrajkGsSXC9S&branch=master&status=passed)
+
 Welcome to my personal website's source code!
 
 ### How to Use
