@@ -3,12 +3,16 @@
 # nick, 2020-09-29 18:03
 #
 
-all:
+SITE_FILES = _site/*.html _site/*.css _site/*.md
+
+$(SITE_FILES): _config.yml *.html *.css *.md _includes/*.html _layouts/*.html _data/*.yml
 	bundle exec jekyll build
 
+all: $(SITE_FILES)
+
+.PHONY: serve clean
 serve:
 	bundle exec jekyll serve
 
-.PHONY: clean
 clean:
 	rm -rf _site/
