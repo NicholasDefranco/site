@@ -17,19 +17,23 @@ tr:nth-child(even), thead {
   background-color: #46B3E6;
 }
 
-nav.main-navbar {
-  background-color: #46B3E6;
-  text-align: center;
-}
-
-ul.navlist {
+nav > ul {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
   list-style: none;
-  display: inline-block;
 }
 
-ul.navlist > li.main-link {
-  padding-right: 6em;
-  float: left;
+nav > ul > li > a {
+  color: rgb(56, 62, 62);
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+  color: #46B3E6;
+  text-decoration:underline;
 }
 
 body {
