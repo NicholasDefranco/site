@@ -1,8 +1,11 @@
+---
 collections:
-        skills:
+  skills:
+
+include: [".well-known/brave-rewards-verification.txt"]
 
 defaults:
   - scope:
-      path: "" # an empty string here means all files in the project
+      path: ""  # an empty string here means all files in the project
     values:
       layout: "default"
