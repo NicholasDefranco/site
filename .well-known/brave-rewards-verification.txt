@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: nicholasdefranco.xyz
+Token: b512303bdf056399eff1613df332ee4803996bdd86dcabc791e98a511d11fcac
