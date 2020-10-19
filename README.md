@@ -1,6 +1,6 @@
 # My Website
 
-![build](https://travis-ci.com/NicholasDefranco/NicholasDefranco.github.io.svg?token=k3ifBQMTCrajkGsSXC9S&branch=master&status=passed)
+[![Build Status](https://travis-ci.com/nick-cd/site.svg?branch=master)](https://travis-ci.com/nick-cd/site)
 
 Source code for my personal website!
 
