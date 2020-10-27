@@ -9,6 +9,17 @@
   </head>
   <body>
     {% include navigation.html %}
-    {{ content }}
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      <nav>
+        {% capture markdown_file %}
+          {% include footer.md %}
+        {% endcapture %}
+
+        {{ markdown_file | markdownify }}
+      </nav>
+    </footer>
   </body>
 </html>
