@@ -47,6 +47,11 @@ main {
   max-width: 50em;
 }
 
+main ul {
+  padding-left: 12%;
+  padding-right: 5%;
+}
+
 main h1, h2, h3, h4, h5, h6, p {
   text-align: center;
 }
