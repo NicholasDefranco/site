@@ -36,6 +36,16 @@ nav > ul > li > a:hover {
   text-decoration:underline;
 }
 
+/* content */
 body {
   background-color: #DFF6F0;
+}
+
+main {
+  margin: auto;
+  max-width: 50em;
+}
+
+main h1, h2, h3, h4, h5, h6, p {
+  text-align: center;
 }
