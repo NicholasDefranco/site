@@ -25,17 +25,43 @@ nav > ul {
   list-style: none;
 }
 
-nav > ul > li > a {
+/* links */
+a {
   color: rgb(56, 62, 62);
   font-weight: bolder;
   text-decoration: none;
 }
 
-nav > ul > li > a:hover {
+a:hover {
   color: #46B3E6;
   text-decoration:underline;
 }
 
+/* content */
 body {
   background-color: #DFF6F0;
+}
+
+main {
+  margin: auto;
+  max-width: 50em;
+}
+
+main ul {
+  padding-left: 12%;
+  padding-right: 5%;
+}
+
+/* removes the heading number automatically placed by jekyll-latex */
+main .number {
+  display: none;
+}
+
+main h1, h2, h3, h4, h5, h6, p {
+  text-align: center;
+}
+
+main h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
+  color: black;
+  pointer-events: none;
 }
