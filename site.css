@@ -33,13 +33,13 @@ footer {
 }
 
 /* general */
-nav > ul > li > a {
+nav > ul > li a {
   color: rgb(56, 62, 62);
   font-weight: bolder;
   text-decoration: none;
 }
 
-nav > ul > li > a:hover {
+nav > ul > li a:hover {
   color: #46B3E6;
   text-decoration:underline;
 }

@@ -1,0 +1,9 @@
+- text: "GitHub"
+  link: "https://github.com/nick-cd/site"
+  tip: "Website Source Code"
+- text: "Email"
+  link: "mailto:defrann8208@outlook.com"
+  tip: "Email: defrann8208@outlook.com"
+- text: "Public key"
+  link: gpg
+  tip: "My Public gpg Key"
