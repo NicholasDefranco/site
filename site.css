@@ -25,13 +25,6 @@ nav > ul {
   list-style: none;
 }
 
-/* footer */
-footer {
-  bottom:0;
-  position:sticky;
-  background-color:#DFF6F0;
-}
-
 /* general */
 nav > ul > li a {
   color: rgb(56, 62, 62);
