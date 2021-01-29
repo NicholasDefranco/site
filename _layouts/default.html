@@ -12,5 +12,15 @@
     <main>
       {{ content }}
     </main>
+    <footer>
+      <hr>
+      <nav>
+        {% capture markdown_file %}
+          {% include footer.md %}
+        {% endcapture %}
+
+        {{ markdown_file | markdownify }}
+      </nav>
+    </footer>
   </body>
 </html>
